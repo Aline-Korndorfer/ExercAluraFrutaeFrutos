@@ -1,0 +1,7 @@
+.menu__item {
+    list-style: none; /*tira a bolinha da frente dos itens do menu*/
+}
+
+.menu__item:last-child .menu__link {  /*aqui a estilização é para o 'a' do ultimo filho de li*/ 
+    margin-right: 0;
+}

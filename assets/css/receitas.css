@@ -1,0 +1,23 @@
+.receitas{
+    background: #e5e5e5;
+    display: flex;   /*isso deixa os elementos alinhado na horizontal*/
+    flex-wrap: wrap;  /*isso faz quebra de página, ou qdo acabar o espaço da linha os elementos passam para a p´roxima linha*/
+}
+
+@media screen and (min-width: 0){
+    .receitas{
+        padding: 5rem 0 0 1rem; 
+   }
+}
+
+@media screen and (min-width: 768px){
+    .receitas{
+        padding: 5rem 0 0 2.5rem; 
+   }
+}
+
+@media screen and (min-width: 992px){
+    .receitas{
+        padding: 5rem 0 0 5rem; 
+   }
+}
